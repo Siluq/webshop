@@ -49,7 +49,7 @@ function logIn(){
       if (password_verify($field_password, $admin['admin_password'])) {
         //Success! if given password and hash match other wise it will return false.
         $_SESSION['username'] = $username;
-        echo "Hallo je bent ingelogd";
+        echo "Hallo $username je bent ingelogd";
         //hierna kan je nog een header toevoegen die verwijst naar een nieuw php bestand als je bent ingelogd.
 
       }else {

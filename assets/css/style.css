@@ -10,6 +10,12 @@
     padding-top: 20px;
 }
 
+.nav {
+    width: 100%;
+    background-color: #000;
+    padding-top: 20px;
+}
+
 .main {
     padding: 0px 10px;
 }
@@ -66,3 +72,12 @@
 .btn-black {
     background-color: #000 !important;
     color: #fff;
+}
+
+.logout-button {
+    position: relative;
+    background-color: red;
+    color: white;
+    margin: 5px;
+    left: 90%;
+}

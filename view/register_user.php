@@ -26,14 +26,20 @@
     <div class="main">
             <div class="col-md-6 col-sm-12">
                 <div class="register-form">
-                    <form method="post" action="register.php">
+                    <form method="post" action="register_user.php">
+                        <div class="form-group">
+                            <label for="fname">Naam</label>
+                            <input type="text" name="field_firstname" id="fname"  class="form-control" placeholder="Voornaam" required />
+                            <input type="text" name="field_infixname" class="form-control" placeholder="Tussenvoegsel" />
+                            <input type="text" name="field_lastname" class="form-control" placeholder="Achternaam" required />
+                        </div>
                         <div class="form-group">
                             <label for="fname">Email</label>
-                            <input type="text" name="field_email" id="email"  class="form-control" placeholder="Username" required />
+                            <input type="text" name="field_email" id="email"  class="form-control" placeholder="Email" required />
                         </div>
                         <div class="form-group">
                             <label for="passwd">Wachtwoord</label>
-                            <input type="password" name="field_password" class="form-control" id="passwd" placeholder="Wachtwoord" required />
+                            <input type="password" name="field_user_password" class="form-control" id="passwd" placeholder="Wachtwoord" required />
                         </div>
                         <input type="submit" name="submit" class="btn btn-info" value="Registreren" />
                         <a href="<?php echo BASEHREF; ?>home_user.php" class="btn btn-secondary">Back</a>

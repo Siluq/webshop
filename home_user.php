@@ -2,7 +2,7 @@
     include("config/connect.php");
     include("src/login_user.php");
     include("config/session.php");
-
+    
     if(!empty($_POST)){
         $chlogin = logIn();
 
@@ -28,7 +28,7 @@
     <div class="main">
         <div class="col-md-6 col-sm-12">
             <div class="login-form">
-                <form method="post" action="<?= BASEHREF;?>src/login_user.php">
+                <form method="post" action="<?= BASEHREF;?>home_user.php">
                <form>
                   <div class="form-group">
                      <label>E-mail adres</label>
@@ -36,7 +36,7 @@
                   </div>
                   <div class="form-group">
                      <label>Wachtwoord</label>
-                     <input type="password" class="form-control" name="field_password" placeholder="Password">
+                     <input type="password" class="form-control" name="field_user_password" placeholder="Password">
                   </div>
                   <button type="submit" name="login" class="btn btn-info">Login</button> 
                   <a href="<?php echo BASEHREF; ?>view/register_user.php" class="btn btn-black">Registreer</a>
