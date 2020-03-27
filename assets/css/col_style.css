@@ -1,0 +1,25 @@
+.tussen-onder {
+    padding: 4px;
+}
+
+.tussen-naast {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-grud {
+    -ms-flex: 0 0 32%;
+    flex: 0 0 32%;
+    max-width: 32%
+}
+
+.col {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(196, 86, 240, 0.507);
+    border: 1px solid rgba(104, 57, 175, 0.541);
+}
+
+.col-img {
+    height: 250px;
+}

@@ -26,6 +26,12 @@
                     <a href="<?php echo BASEHREF; ?>home_user.php" class="btn btn-black">User</a>
                     <a href="<?php echo BASEHREF; ?>home_admin.php" class="btn btn-black">Admin</a>
                 </form>
+                <form>
+                <a class="btn"></a>
+                </form>
+                <form>
+                    <a href="<?php echo BASEHREF; ?>" class="btn btn-secondary">Back</a>
+                </form>
                 </div>
             </div>
         </div>

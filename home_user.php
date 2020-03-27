@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Sams Webshop</title>
+    <title>User login</title>
 </head>
 <body>
     <div class="sidenav">
@@ -40,7 +40,7 @@
                   </div>
                   <button type="submit" name="login" class="btn btn-info">Login</button> 
                   <a href="<?php echo BASEHREF; ?>view/register_user.php" class="btn btn-black">Registreer</a>
-                  <a href="<?php echo BASEHREF; ?>" class="btn btn-secondary">Back</a>
+                  <a href="<?php echo BASEHREF; ?>login.php" class="btn btn-secondary">Back</a>
                </form>
             </div>
         </div>

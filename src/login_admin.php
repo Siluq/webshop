@@ -32,6 +32,7 @@ function logIn(){
     //   echo 'E-mail cannot be blank!<br/>';
     // }
 
+
   $qry = $con->query("SELECT username,admin_password FROM admin WHERE username = '{$username}';");
   if($qry === false){   
     echo mysqli_error($con)." - ";
@@ -42,14 +43,12 @@ function logIn(){
         //deze variable moest admin zijn ipv user
     while ($admin = $qry->fetch_assoc()){
       //password check;
-        
 
-
-        //deze variable moest admin zijn ipv user
       if (password_verify($field_password, $admin['admin_password'])) {
         //Success! if given password and hash match other wise it will return false.
         $_SESSION['username'] = $username;
         echo "Hallo $username je bent ingelogd";
+        header("Location: view/dashboard_admin.php");
         //hierna kan je nog een header toevoegen die verwijst naar een nieuw php bestand als je bent ingelogd.
 
       }else {
