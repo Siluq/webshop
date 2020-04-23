@@ -1,23 +1,7 @@
-Sam Boesjes
+## **Sams Lamps**
+Dit is mijn lampen shop je kan ook een aantal dingen doen in het admin pannel.
+Als je dit wilt uittesten ga je naar het login scherm en log je in met de volgende admin: gebruikersnaam: Admin Wachtwoord: 12345 
 
-## **Taken: Stap 1**
-- [X]  Database verbinden met de code
-- [X]  Formulier data opvangen in PHP
-- [X]  Formulier data in het Database zetten
-- [X]  **EXTRA**: Formulier data valideren
 
-## Taken: Stap 2
-- [ ]  Login formulier maken
-- [ ]  Login formulier HTML
-- [ ]  Formulier aanvullen met PHP
-- [ ]  Formulier data opvangen en in DB zetten
 
-## Taken: Stap 3
-- [ ]  Code die checkt of een user toegang heeft tot deze view
-- [ ]  Uitloggen van een gebruiker
-
-## Taken: Stap 4
-- [ ]  Maak een mapje aan met de naam **producten**
-- [ ]  Via PHP een product toevoegen
-- [ ]  Via PHP een product wijzigen
-- [ ]  Via PHP een product verwijderen
+Sorry ik zag vandaag dat ik niet goed had gecommit maar hier is een deel van mijn website want ik kon opeens ook niet de versie vinden waar alles af was dus ook met winkelmandje en al

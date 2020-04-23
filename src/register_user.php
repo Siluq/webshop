@@ -1,5 +1,6 @@
 <?php
 
+
 function setFormData(){
     //valideren van formulier ddata
     //formulier in ddatabase zetten
@@ -33,7 +34,7 @@ function setFormData(){
         echo 'Firstname cannot be blank!<br/>';
         }
         // Validate tussenvoegsel
-        if( !preg_match('/[^a-zA-Z\s]/', $tussenvoegsel) ) {
+    if( !preg_match('/[^a-zA-Z\s]/', $tussenvoegsel) ) {
             $valid['check_infixname'] = true;
             $tussenvoegsel = dbp($_POST['field_infixname']);
                 echo 'Tussenvoegsel is OK! <br/>';
@@ -42,7 +43,7 @@ function setFormData(){
         }
             
         // Validate lastname
-        if( !empty($lastname) ) {
+    if( !empty($lastname) ) {
         if( strlen($lastname) >= 2 && strlen($lastname) <= 40 ) {
         if( !preg_match('/[^a-zA-Z\s]/', $lastname) ) {
             $valid['check_lastname'] = true;

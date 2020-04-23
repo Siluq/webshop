@@ -32,7 +32,6 @@ function logIn(){
     //   echo 'E-mail cannot be blank!<br/>';
     // }
 
-
   $qry = $con->query("SELECT username,admin_password FROM admin WHERE username = '{$username}';");
   if($qry === false){   
     echo mysqli_error($con)." - ";
